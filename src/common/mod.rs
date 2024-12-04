@@ -14,6 +14,7 @@ lazy_static! {
         let mut m: HashMap<u8, (Solver, Solver)> = HashMap::new();
         m.insert(1, (days::day1::part1, days::day1::part2));
         m.insert(2, (days::day2::part1, days::day2::part2));
+        m.insert(3, (days::day3::part1, days::day3::part2));
         m
     };
 }

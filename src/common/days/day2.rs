@@ -1,5 +1,3 @@
-use itertools::*;
-
 fn parse(input: &str) -> Vec<Vec<i32>> {
     let lines = input.lines();
     let iter = lines.map(|line| {

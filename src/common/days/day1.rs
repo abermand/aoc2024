@@ -1,7 +1,5 @@
 use std::collections::HashMap;
 
-use anyhow::{anyhow, Result};
-
 fn parse(input: &str) -> (Vec<i32>, Vec<i32>) {
     let lines = input.lines();
     let left: Vec<i32>;
